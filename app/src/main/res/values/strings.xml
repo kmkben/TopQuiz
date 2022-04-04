@@ -9,4 +9,7 @@
     <string name="answer2">Answer 2</string>
     <string name="answer3">Answer 3</string>
     <string name="answer4">Answer 4</string>
+    <string name="welcome_back_with_score">Welcome back, %s!\nYour last score was %d, will you do better this time?</string>
+    <string name="welcome_back">Welcome back, %s!</string>
+    <string name="hello_user">Hello %s</string>
 </resources>
