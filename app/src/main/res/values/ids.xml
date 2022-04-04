@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nameEditText" type="id" />
+    <item name="welcomeText" type="id" />
+    <item name="btnPlay" type="id" />
+    <id name="nameEditTex" />
+    <id name="question" />
+    <id name="game_activity_button1" />
+    <id name="game_activity_button2" />
+    <id name="game_activity_button3" />
+    <id name="game_activity_button4" />
+</resources>

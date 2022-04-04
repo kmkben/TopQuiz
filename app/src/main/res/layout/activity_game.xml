@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.GameActivity">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="4"
+        android:background="@color/teal_700"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/question"/>
+    
+    <Button
+        android:id="@+id/game_activity_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:text="@string/answer1"/>
+
+    <Button
+        android:id="@id/game_activity_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:text="@string/answer2"/>
+
+    <Button
+        android:id="@id/game_activity_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:text="@string/answer3"/>
+
+    <Button
+        android:id="@id/game_activity_button4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:text="@string/answer4"/>
+
+</LinearLayout>
