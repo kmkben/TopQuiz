@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //greetUser();
+        greetUser();
     }
 
     @Override
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                     .putInt(SHARED_PREF_USER_INFO_SCORE, score)
                     .apply();
 
-            //greetUser();
+            greetUser();
         }
     }
 
